@@ -75,12 +75,17 @@
 .main_heading {
     color: white;
     font-size: 48px;
+    line-height: 1;
+    overflow-y: hidden;
+    padding: 20px 0;
 }
 
 
 .main_para {
     color: white;
     font-size: 28px;
+    line-height: 1;
+    overflow-y: hidden;
 
 
 }
@@ -138,22 +143,26 @@ input:focus {
     width: 100%;
     background-color: black;
     display: flex;
+    text-align: left;
 }
 
 .container_2 {
-    height: 500px;
+    height: 550px;
     width: 100%;
     background-color: black;
     display: flex;
+    text-align: left;
 
 }
 
 .container_left {
-    padding: 160px 0 0 30px;
+    width: 60%;
+    padding: 160px 45px 0 45px;
 }
 
 .container_right {
-    padding: 160px 35px 0 0;
+    width: 60%;
+    padding: 160px 35px 0 30px;
 }
 
 .container5 {
@@ -213,6 +222,7 @@ input:focus {
 .c5_subheading {
     display: flex;
     justify-content: center;
+    font-size: 24px;
 
 }
 
@@ -357,7 +367,7 @@ input:focus {
         text-align: center;
     }
     .maincontainer {
-        height: 400px;
+        height: 350px;
     }
    .nav_container img {
         width: 80px;
@@ -375,15 +385,17 @@ input:focus {
     }
 
     .maincontainer {
-        height: 500px;
+        height: 600px;
     }
 
     .main_heading {
-        font-size: 22px;
+        font-size: 28px;
+        /* line-height:34px ; */
     }
 
     .main_para {
-        font-size: 16px;
+        font-size: 20px;
+        /* line-height: 25px; */
     }
 
     .sub_heading {
@@ -417,7 +429,7 @@ input:focus {
     }
 
     .form .btn {
-        width: 35%;
+        width: 38%;
         height: 35px;
         display: flex;
         /* align-items: center; */
@@ -425,7 +437,7 @@ input:focus {
         background-color: #e50914;
         color: #fff;
         border: none;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .form .btn .fa-solid {
@@ -434,7 +446,7 @@ input:focus {
     }
 
     .container {
-        height: 500px;
+        height: 600px;
         width: 100%;
         background-color: black;
         display: flex;
@@ -443,7 +455,7 @@ input:focus {
     }
 
     .container_2 {
-        height: 500px;
+        height: 740px;
         width: 100%;
         background-color: black;
         display: flex;
@@ -468,12 +480,12 @@ input:focus {
     }
 
     .container5 {
-        height: 500px;
+        height: 570px;
 
     }
 
     .main__heading {
-        font-size: 18px;
+        font-size: 22px;
         padding: 20px 0 5px 0;
 
     }
@@ -493,11 +505,12 @@ input:focus {
     }
 
     .question_title {
-        font-size: 14px;
+        font-size: 18px;
+        padding-left:15px ;
     }
 
     .sub__heading {
-        font-size: 12px;
+        font-size: 18px;
         padding: 20px 0 10px 0;
         text-align: center;
     }
@@ -530,12 +543,12 @@ input:focus {
     }
 
     .container_search2 .form .btn2 {
-        width: 35%;
+        width: 38%;
         height: 35px;
         display: flex;
         /* align-items: center; */
         /* justify-content: center; */
-        font-size: 15px;
+        font-size: 12px;
         background-color: #e50914;
         color: #fff;
         border: none;
